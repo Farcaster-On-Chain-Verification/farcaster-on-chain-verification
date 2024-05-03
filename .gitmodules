@@ -1,0 +1,9 @@
+[submodule "attestation-frame-azle"]
+	path = attestation-frame-azle
+	url = git@github.com:Farcaster-On-Chain-Verification/attestation-frame-azle.git
+[submodule "attestation-server"]
+	path = attestation-server
+	url = git@github.com:Farcaster-On-Chain-Verification/attestation-server.git
+[submodule "passport"]
+	path = passport
+	url = git@github.com:Farcaster-On-Chain-Verification/passport.git
