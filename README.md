@@ -10,7 +10,7 @@ System that ensures secure identity verification for **Farcaster** users partici
 
 ## What?
 
-- Farcaster Frame built using Azle hosted on ICP that let Farcaster users easily use Ethereum Attestation Service on Arbitrum One to attest to their accounts. 🎫
+- Farcaster Frame that let Farcaster users easily use Ethereum Attestation Service on Arbitrum One to attest to their accounts. 🎫
 - Gitcoin Passport is the first use case using the attestation as a primitive for Sybil resistance. 🛡️
 
 ## How?
@@ -19,7 +19,6 @@ System that ensures secure identity verification for **Farcaster** users partici
 - Community Trust: Incorporate @farcaster_xyz primitive to @gitcoinpassport. 🛂
 - User-Centric Design: Use Farcaster Frames for usability and interactiveness to encourage adoption. 🖼️
 - Interoperability and Efficiency: Use @arbitrum for smooth, cost-effective and secure integration. ⚡
-- Decentralized: Leverage [Azle](https://github.com/demergent-labs/azle) and @dfinity ICP infrastructure for decentralizing computation. 🌐
  
 ## How does it work?
 
@@ -31,7 +30,7 @@ System that ensures secure identity verification for **Farcaster** users partici
 
 ## Repositories
 - **attestation-server**: Attest Farcaster accounts using **Ethereum's Attestation Service** on **Arbitrum One**.
-- **attestation-frame**: Facilitate **Farcaster** account attestation using **Frames** on **ICP** decentralized infraestructure.
+- **attestation-frame**: Facilitate **Farcaster** account attestation using **Frames**.
 - **gitcoin-passport**: **Gitcoin Passport** allows users to prove their identity through a secure, decentralized UI.
 
 ## Architecture
@@ -41,7 +40,6 @@ System that ensures secure identity verification for **Farcaster** users partici
 ### Components
 
 - **USER**: Farcaster mobile or web user.
-- **ICP**: [Internet Computer](https://internetcomputer.org/) canisters, interoperable compute units that bundle code and state, designed for internet-scale services. Used to host the Farcaster Frames frontend. In the future, it will be used to also store the attest backend serivce.
 - **FARCASTER HUB**: [Farcaster](https://www.farcaster.xyz/) is a sufficiently decentralized social network. Farcaster Hubs are a distributed network of servers that store and validate Farcaster data.
 - **FARCASTER FRAME**: [Farcaster Frames](https://docs.farcaster.xyz/learn/what-is-farcaster/frames) is used to turn any cast into an interactive app. Within this project, it allows users to verify their account directly on the app.
 - **WARPCAST**: [Warpcast](https://warpcast.com/) is a decentralized social media platform built on Farcaster.
@@ -49,6 +47,6 @@ System that ensures secure identity verification for **Farcaster** users partici
 - **ARBITRUM ONE**: [Arbitrum One](https://arbitrum.io/) most dominant L2 on Ethereum by Volume and TVL used to store and query the EAS attestations through their smart contracts.
 - **EAS**: [Ethereum Attestation Service](https://attest.org) is an infrastructure public good for making attestations onchain or offchain about anything.
 - **NEYNAR**: [Neynar](https://neynar.com/) provides services to build on Farcaster. Used to validate requests on Frames.
-- **VERCEL**: [Vercel](https://vercel.com/) is a centralized hosting provider. Due to some restrictions on building backends on the ICP decentralized infraestructure, it's being used as a backend server hosting.
+- **VERCEL**: [Vercel](https://vercel.com/) hosting provider for the BE and FE.
 
 
