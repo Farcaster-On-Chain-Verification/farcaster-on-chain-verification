@@ -7,3 +7,6 @@
 [submodule "passport"]
 	path = passport
 	url = git@github.com:Farcaster-On-Chain-Verification/passport.git
+[submodule "landing"]
+	path = landing
+	url = git@github.com:Farcaster-On-Chain-Verification/landing.git
