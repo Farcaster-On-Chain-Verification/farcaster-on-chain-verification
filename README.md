@@ -32,6 +32,8 @@ System that ensures secure identity verification for **Farcaster** users partici
 - **attestation-server**: Attest Farcaster accounts using **Ethereum's Attestation Service** on **Arbitrum One**.
 - **attestation-frame**: Facilitate **Farcaster** account attestation using **Frames**.
 - **gitcoin-passport**: **Gitcoin Passport** allows users to prove their identity through a secure, decentralized UI.
+- **landing**: https://farcaster-onchain-verification.gonzalomelov.xyz
+- **Dune Dashboard**: https://dune.com/gonzalomelov/farcaster-onchain-verifications
 
 ## Architecture
 
